@@ -186,8 +186,8 @@ class ExperimentConfig:
         self.ENSEMBLE_VOTING = 'soft'  # Options: 'hard', 'soft'
         
         # Entrez configuration - CHANGE THESE
-        Entrez.email = "research@example.com"  # REQUIRED: Change to your email
-        Entrez.api_key = None  # Add NCBI API key for faster access (optional)
+        Entrez.email = "faaiz,ds242duk.ac.in"  # REQUIRED: Change to your email
+        Entrez.api_key = "1ed2a4f8626f38b2bccb05b499bc8ad54009"  # Add NCBI API key for faster access (optional)
         
         # Save configuration
         self.save_config()
